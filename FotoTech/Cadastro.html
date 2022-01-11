@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+      <title></title>
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="C:/Users/JONATHAN/Desktop/HTML/PraticandO_/Criando_PgsEModelos/FotoTech/estilo-css/Cadastro.css">
+
+ </head>
+
+ <body>
+
+    <div id="major">
+    	<br>
+     <form>
+    	<h2 class="primeiro-titulo">Identidade e contatos</h2> 
+
+    	<div class="float-left">
+    		<label class="label-nome" for="nome"><strong>nome</strong></label><br>
+	    		<input class="input-nome" type="text" id="nome" value="Nome" name="nome" placeholder="Nome" required><br><br><br>
+
+	    	<label class="label-email" for="email"><strong>E-mail<strong></label><br>
+	        <input class="input-email" type="email" id="email" value="email" placeholder="e-mail"><br><br><br>
+
+            <label class="label-nascimento" for="nascimento"><strong>Nascimento<strong></label><br>
+	        <input class="input-nascimento" type="date" id="nascimento" value="nascimento">
+
+
+           <br><br>
+
+    	</div>
+
+    	<div class="float-right">
+    		<label class="label-sobrenome" for="sobrenome" required><strong>Sobrenome</strong></label><br>
+	    		<input class="input-sobrenome" type="text" id="sobrenome" value="sobrenome" placeholder="Sobrenome"><br><br><br>
+
+	    		<label class="label-senha" for="senha"><strong>Senha<strong></label><br>
+	        <input class="input-senha" type="password" id="senha" value="senha" placeholder="Senha">
+          <br><br>
+	    
+    	</div>
+ 
+        <h2 class="endereco">Endereço</h2> 
+
+        <div class="float-left">
+    		<label class="label-estado" for="estado"><strong>Estado/Cidade</strong></label><br>
+	    		<input class="input-estado" list="estados" placeholder="SP">
+	    		<datalist id="estados">
+	    			<option value="SP">São Paulo</option>
+	    			<option value="MG">Minas Gerais</option>
+	    			<option value="PB">Paraíba</option>
+	    			<option value="SC">Santa Catarina</option>
+	    			<option value="AM">Amazonas</option>
+	  
+
+
+	    		</datalist>
+	    		<input class="input-cidade" list="cidades" placeholder="cidade">
+	    		<datalist id="cidades">
+	    			<option value="São Paulo">SP</option>
+	    			<option value="Belo Horizonte">BH</option>
+	    			<option value="João Pessoa">PB</option>
+	    			<option value="Santa Catarina">SC</option>
+	    			<option value="Amazônia">AM</option>
+
+	    		</datalist><br><br><br><br>
+
+	    	<label class="label-bairro">Bairro</label><br>
+    		<input class="input-bairro" type="text" placeholder="Bairro">
+
+           <br><br><br><br>
+
+           <label class="label-referencia">Referência</label><br>
+           <textarea class="textarea-referencia" name="referencia"></textarea>
+
+           <br><br>
+
+           <input class="input-cadastrar" type="submit" value="Cadastrar">
+
+
+    	</div>
+
+    	<div class="float-right">
+    		<label>Telefone</label><br>
+    		<input class="input-telefone" type="tel" placeholder="(DDD)xxxxx-xxxx"><br><br>
+
+    		<label class="label-rua">Rua/Av.</label><label class="label-numero">número</label><br>
+    		<input class="input-rua" type="text" placeholder="Rua/Av.">
+    		<input class="input-numero" type="number" placeholder="número">
+
+    	</div><br><br><br>
+
+
+
+     </form>
+    </div>
+
+
+     
+     
+ </body>
+
+</html>

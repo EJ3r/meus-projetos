@@ -1,0 +1,210 @@
+ *{
+      margin:0;
+      padding:0;
+
+   }
+    
+
+@font-face{
+     font-family:Otama;
+     src:url("C:/Users/JONATHAN/Desktop/HTML/PraticandO_/Criando_PgsEModelos/FotoTech/Arquivos/Otama-ep.otf");
+
+ }
+
+body{
+     width:1025px;
+     min-height:800px;
+     margin-left:50%;
+     transform:translate(-50%);
+     background:#F7E7CE/*#F9EAC3;*/
+     /*border:1px solid red;*/
+
+    }
+
+    h2{
+    	width:100%;
+    	text-align:center;
+    	 background:#F7E7CE /*#F9EAC3;*/
+    	 /*border:1px solid pink;*/
+    }
+
+label{
+ font-family:Otama;
+ margin-left:3%;
+
+}
+
+input{
+height:35px;
+margin-left:5%;
+
+
+}
+
+::-webkit-input-placeholder{
+ 
+
+}
+
+    #major{
+     margin:1% 2%;
+     min-height:790px;
+     background:#E8D3B6;
+     border-radius:10px;
+     /*border:1px solid blue;*/
+
+    }
+
+    .primeiro-titulo{
+     margin-top:3%;
+
+    }
+
+    .float-left{
+      float:left;
+      width:45%;
+      margin-top:3%; 
+      margin-left:1%;
+      /*border:1px solid violet;*/
+    }
+
+
+
+
+.input-nome{
+width:90%;
+padding-left:1%;
+/*border-radius:5px 0 5px 0;*/
+
+}
+
+.input-email{
+width:90%;
+padding-left:1%;
+/*border-radius:5px 0 0 5px;*/
+
+}
+
+.input-nascimento{
+padding-left:1%;
+
+}
+
+.float-right{
+ float:right;
+ width:45%;
+ margin-top:3%; 
+ margin-right:1%;
+ /*border:1px solid violet;*/
+
+}
+
+.input-sobrenome{
+ width:90%;
+ padding-left:1%;
+ border-radius:5px 0 5px 0;
+
+}
+
+.input-senha{
+width:90%;
+padding-left:1%;
+border-radius:5px 0 0 5px;
+
+}
+
+.endereco{
+ clear:both;
+
+}
+
+.float-left .input-estado{
+ float:left;
+ width:10%;
+ padding-left:1%;
+ margin-top:3%; 
+ margin-left:1%;
+ /*border:1px solid violet;*/
+
+}
+
+.float-left .input-cidade{
+ float:left;
+ width:40%;
+ padding-left:1%;
+ margin-top:3%; 
+ margin-left:3%;
+ /*border:1px solid violet;*/
+
+}
+
+.float-right .input-telefone{
+  margin-left:1%;
+  margin-top:3%; 
+
+}
+
+.float-left .input-bairro{
+ float:left;
+ width:40%;
+ margin-top:1%; 
+ margin-left:1%;
+ /*border:1px solid violet;*/
+
+}
+
+.float-right .input-rua{
+ margin-top:1%;
+ margin-left:1%;
+ /*border:1px solid violet;*/
+
+}
+
+.float-right .input-numero{
+ width:15%;
+ padding-left:1%;
+
+}
+
+.float-right .label-numero{
+ margin-left:30%;
+
+}
+
+.float-left .label-referencia{
+ margin-left:1%;
+
+}
+
+.float-left .textarea-referencia{
+ height:90px;
+ padding:1%;
+
+}
+
+.float-left .input-cadastrar{
+ margin-left:1%;
+ /*border:1px solid violet;*/
+
+}
+
+
+.float-left .input-cadastrar:hover{
+ cursor:pointer;
+ /*border:1px solid violet;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
